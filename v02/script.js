@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function processCommand(command) {
         // Create a new line in the output
         const newLine = document.createElement("div");
-        newLine.innerHTML = `<span class="prompt">[SNORP]:></span> ${command}`;
+        newLine.innerHTML = `<span class="prompt">[SNORP]:</span> ${command}`;
         outputDiv.appendChild(newLine);
 
         // Simple command responses
